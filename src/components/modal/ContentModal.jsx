@@ -6,7 +6,7 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import apiService from "../../api/apiService";
-import "./ContentModal.css";
+import "./contentModal.css";
 import { API_IMG_300, API_IMG_500, unavailable } from "../../api/apiconfig";
 
 export default function ContentModal({ children, media_type, id }) {
