@@ -1,6 +1,6 @@
 import { Badge } from "@mui/material";
 import { API_IMG_300, unavailable } from "../api/apiconfig";
-import "./MovieCard.css";
+
 import ContentModal from "./modal/ContentModal";
 
 function MovieCard({ id, poster, title, date, media_type, vote_average }) {
